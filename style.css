@@ -1,0 +1,205 @@
+html, body{
+	margin: 0px;
+	padding: 0px;
+	font-family:'Arial';
+	color: #242424;
+}
+
+img{
+	border: none;
+}
+
+.clear{
+	clear: both;
+}
+
+.box-center{
+	width: 1000px;
+	margin: 0px auto;
+}
+/* header */
+#header
+{
+	
+}
+#header .box-center{
+	position:relative;
+}
+.logo
+{
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:9;
+}
+.navigator
+{
+	float:right;
+	text-align:right;
+	padding:40px 0;
+}
+.navigator ul
+{
+	margin: 0px;
+	list-style: none;
+	font-size: 0px;
+}
+.navigator ul li
+{
+	display:inline-block;
+	vertical-align:top;
+}
+.navigator ul li a
+{
+	text-decoration: none;
+	font-size: 18px;
+	color: #000000;
+	font-weight: 400;
+	padding: 0 0 0 52px;
+	text-transform:uppercase;
+	display: block;
+}
+.navigator ul li:hover a,.navigator ul li a:hover
+{
+	color:#9cb445;
+}
+/*Slider*/
+.slider-container{
+
+}
+
+.slide-container .bx-wrapper .bx-viewport{
+	border: none;
+	box-shadow: none;
+	left: 0px;
+}
+
+.slide-container ul{
+	margin: 0px;
+	padding: 0px;
+}
+/* content */
+#content
+{
+	
+}
+#content .baggage-container
+{
+	padding-top:80px;
+}
+.title-baggage-container
+{
+	color:#000000;
+	font-size:36px;
+	font-weight:bold;
+	text-align:center;
+	display:block;
+	padding:0 90px;
+	font-family:'oswald';
+}
+.here-how-baggage
+{
+	color:#c1d82f;
+	font-size:24px;
+	font-weight:bold;
+	text-align:center;
+	display:block;
+}
+
+
+.contest-container
+{
+	background:url(images/bg_contest_container.png) repeat-x;
+	height:597px;
+}
+.title-contest-container
+{
+	color:#ffffff;
+	font-size:36px;
+	font-weight:bold;
+	text-align:center;
+	display:block;
+	padding:75px 0 0 0;
+}
+.content-contest-container
+{
+    list-style: outside none none;
+    margin: 0;
+	display:block;
+}
+.content-contest-container li
+{
+	border:1px solid #ffffff;
+	border-radius:5px;
+	padding:28px;
+	max-width:400px;
+}
+.content-contest-container li a
+{
+	color:#c1d62f;
+	font-size:30px;
+	font-weight:bold;
+	font-family:'oswald';
+	text-decoration: none;
+	display:block;
+}
+.content-contest-container li span
+{
+	color:#ffffff;
+	font-size:24px;
+	font-family:'oswald';
+	padding:5px 0 30px 0;
+}
+.content-contest-container li p
+{
+	color:#ffffff;
+	font-size:16px;
+	text-align:justify;
+	display:block;
+	line-height:25px;
+}
+.first
+{
+	margin-left:0;
+	float:left;
+}
+.last
+{
+	margin-right:0;
+	float:right;
+}
+.foudation-container
+{
+	padding:75px 0;
+	
+}
+.foudation-container p
+{
+	padding:0 40px;
+	color:#000000;
+	font-size:26px;
+	font-family:'[YanoneKaffees...';
+	text-align:center;
+	display:block;
+}
+.foudation-container span
+{
+	text-align:center;
+	display:block;
+	color:#000000;
+	font-size:26px;
+}
+/* footer */
+#footer
+{
+	background:url(images/bg_footer.png) repeat-x;
+	height:100px;
+}
+#footer span
+{
+	text-align:center;
+	color:#ffffff;
+	font-size:16px;
+	display:block;
+	padding:40px 0;
+}
